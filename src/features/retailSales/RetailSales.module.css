@@ -1,0 +1,83 @@
+.container {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.itemDataCard, .salesGraphCard {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.itemDataCard {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 300px;
+}
+
+.itemData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.itemDataImage {
+    height: 150px;
+    object-fit: cover;
+    padding: 20px;
+}
+
+.itemDataTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.itemDataSubtitle {
+    font-size: 16px;
+    color: grey;
+    padding: 20px;
+}
+
+.itemDataTags {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: wrap;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.itemDataTags span {
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.salesGraphCard {
+    flex-grow: 1;
+}
+
+.salesGraphTitle {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.salesGraphLabel {
+    font-size: 24px;
+    color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #ddd;
+    height: 100px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 30px;
+}
